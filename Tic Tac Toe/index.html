@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UV-Compatible" content="ie = edge">
+    <link rel="stylesheet" href="static/static/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <title>Mile's X-0</title>
+</head>
+<body>
+    
+    <div class="container-0">
+        <h3 style="color:rgb(255, 0, 255);" style="text-decoration: greenyellow;">Welcome to my game, enjoy!</h3>
+        <h6>_____</h6>
+        <div class = "result-box"id = "Win-result" style="color: rgb(255, 0, 0);">
+            <div id="Lose-result">
+                
+            </div>
+
+        </div>
+        <div class="container-1">
+            
+            <div class="buttons-row-1">
+                <button id="one"class=" btn lg mg-2 btn-warning" onclick="Main(this)">1</button><h6>___</h6>
+                <button id="two"class=" btn lg mg-2 btn-warning"onclick="Main(this)">2</button><h6>___</h6>
+                <button id="three"class=" btn lg mg-2 btn-warning"onclick="Main(this)">3</button>
+            </div>
+            <h6>|</h6>
+            <div class="buttons-row-2">
+                <button id="four"class=" btn lg mg-2 btn-warning"onclick="Main(this)">4</button><h6>___</h6>
+                <button id="five"class=" btn lg mg-2 btn-warning"onclick="Main(this)">5</button><h6>___</h6>
+                <button id="six"class=" btn lg mg-2 btn-warning"onclick="Main(this)">6</button>
+            </div>
+            <h6>|</h6>
+            <div class="buttons-row-3">
+                <button id="seven"class=" btn lg mg-2 btn-warning"onclick="Main(this)">7</button><h6>___</h6>
+                <button id="eight"class=" btn lg mg-2 btn-warning"onclick="Main(this)">8</button><h6>___</h6>
+                <button id="nine"class=" btn lg mg-2 btn-warning"onclick="Main(this)">9</button>
+            </div>
+
+        </div>
+        <div class="music-box">
+            <button class="btn-success btn lg mg-2" onclick="playMusic()">Music</button>
+            <button class="btn-info btn lg mg-2" onclick="stopMusic()">turn off music</button>
+            <button class="btn-danger btn lg mg-2" onclick="reset()">Reset</button>
+           
+        </div>
+        <div class="note">
+            <table>
+            <tbody>          
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                </tr>
+                <tr>
+                    <th><span id="Wins">0</span></th>
+                    <th><span id="Losses">0</span></th>
+                </tr>
+            </tbody>         
+            </table>
+            <h6 style="color:deepskyblue;" style="text-decoration: greenyellow;">Note: double click the reset button to reset</h6>
+            <h6 style="color:deepskyblue;" style="text-decoration: greenyellow;">Made by: CptHermes</h6>
+        </div>
+
+
+    </div>
+    <script src="static/static/java/script.js">
+    </script>
+</body>
+</html>
